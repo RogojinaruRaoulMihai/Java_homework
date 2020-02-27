@@ -1,0 +1,28 @@
+package com.siit.tema1;
+
+import java.util.Scanner;
+
+public class Palindrom {
+  public static void main (String...args){
+    Scanner numar= new scanner(system.in);
+    System.out.println("introduceti numarul");
+    int x = numar.nextInt();
+    int y = x;
+    
+    int k= 0;
+    
+    while (x =!0){
+      int cifra = x%10;
+      k = k*10+cifra;
+      x = x/10;
+      }
+      
+       if (y==k){
+        System.out.println("numarul" +y + "este un palindrom");
+        }
+       else {
+        System.out.println("inversul numarului este" +k);
+        }
+        }
+        }
+        
